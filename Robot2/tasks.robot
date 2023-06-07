@@ -24,7 +24,6 @@ Order robots from RobotSpareBin Industries Inc
     Download the orders file, read it as a table, and return the result
     Loop the orders
     Create ZIP package from PDF files
-    Cleanup temporary PDF directory
     Close the browser
 
 
@@ -76,9 +75,6 @@ Create ZIP package from PDF files
     Archive Folder With Zip
     ...    ${pdf_folder}
     ...    ${zip_file_name}
-
-Cleanup temporary PDF directory
-    Remove Directory    ${pdf_folder}    True
 
 Close the browser
     Close Browser
